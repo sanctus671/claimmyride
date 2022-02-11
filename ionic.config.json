@@ -1,0 +1,7 @@
+{
+  "name": "claimmyride",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
