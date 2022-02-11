@@ -91,6 +91,9 @@
         <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
             <string>We use your location for full functionality of certain app features</string>
         </edit-config>
+        <edit-config target="NSLocationAlwaysAndWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+            <string>We use your location for full functionality of certain app features</string>
+        </edit-config>        
         <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
             <string>Select images for your profile and location</string>
         </edit-config>
