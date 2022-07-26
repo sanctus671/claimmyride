@@ -86,13 +86,13 @@
         <allow-intent href="itms-apps:*" />
         <preference name="ios-statusbarstyle" value="black-opaque" />
         <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
-            <string>We use your location for full functionality of certain app features</string>
+            <string>We use your location to show your position on the map and to track your trips</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
-            <string>We use your location for full functionality of certain app features</string>
+            <string>We use your location to show your position on the map and to track your trips</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysAndWhenInUseUsageDescription">
-            <string>We use your location for full functionality of certain app features</string>
+            <string>We use your location to show your position on the map and to track your trips</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
             <string>Select images for your profile and location</string>
@@ -149,5 +149,4 @@
     <plugin name="onesignal-cordova-plugin" spec="^2.3.3" />
     <plugin name="cordova-plugin-ionic-webview" spec="^5.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.2.0" />
-    <engine name="android" spec="^9.0.0" />
 </widget>
